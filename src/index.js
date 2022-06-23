@@ -46,7 +46,8 @@ export {
 } from "./threshold.js";
 
 export {
-  default as scaleTime
+  default as scaleTime,
+  calendar
 } from "./time.js";
 
 export {
@@ -76,3 +77,5 @@ export {
 export {
   default as tickFormat
 } from "./tickFormat.js";
+
+export {initRange} from "./init.js";
